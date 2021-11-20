@@ -1,0 +1,13 @@
+api/env
+node_modules
+api/node_modules
+api/bower_components
+api/__pycache__
+*.pyc
+api/bin
+api/obj
+*.db
+*.sqlite3
+.vscode
+dist
+api/listapi/migrations
