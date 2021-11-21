@@ -16,5 +16,5 @@ class ListSerializer(serializers.HyperlinkedModelSerializer):
             "id",
             "name",
             "description",
-            "user_id"
+            "user_id",
         )

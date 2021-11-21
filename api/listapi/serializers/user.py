@@ -20,5 +20,5 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
             "date_joined",
             "email",
             "last_login",
-            'is_staff'
+            'is_staff',
         )
