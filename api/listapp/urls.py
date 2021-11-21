@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from listapi.views import register_user, logout_user, login_user
+from listapi.views import register_user, logout_user, login_user, Lists, ListItems
 
 router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'lists', Lists, 'list')
+router.register(r'list_items', ListItems, 'list_item')
 
 urlpatterns = [
     path('', include(router.urls)),
