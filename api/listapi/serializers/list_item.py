@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from listapi.models import List
+from listapi.models import ListItem
 
 class ListItemSerializer(serializers.HyperlinkedModelSerializer):
     """JSON serializer for lists.
@@ -7,9 +7,9 @@ class ListItemSerializer(serializers.HyperlinkedModelSerializer):
         serializers
     """
     class Meta:
-        model = List
+        model = ListItem
         url = serializers.HyperlinkedIdentityField(
-            view_name="list",
+            view_name="list_item",
             lookup_field="id"
         )
         fields = (
