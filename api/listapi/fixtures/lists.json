@@ -1,0 +1,11 @@
+[
+    {
+        "model": "listapi.list",
+        "pk": 1,
+        "fields": {
+            "name": "Shopping List",
+            "description": "A list of things we need for the week.",
+            "user_id": 1
+        }
+    }
+]

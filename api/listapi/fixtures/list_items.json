@@ -1,0 +1,47 @@
+[
+    {
+        "model": "listapi.listitem",
+        "pk":  1,
+        "fields": {
+            "name": "Apples",
+            "description": "",
+            "list_id": 1
+        }
+    },
+    {
+        "model": "listapi.listitem",
+        "pk":  2,
+        "fields": {
+            "name": "Bananas",
+            "description": "",
+            "list_id": 1
+        }
+    },
+    {
+        "model": "listapi.listitem",
+        "pk":  3,
+        "fields": {
+            "name": "Milk",
+            "description": "",
+            "list_id": 1
+        }
+    },
+    {
+        "model": "listapi.listitem",
+        "pk":  4,
+        "fields": {
+            "name": "Bread",
+            "description": "",
+            "list_id": 1
+        }
+    },
+    {
+        "model": "listapi.listitem",
+        "pk":  5,
+        "fields": {
+            "name": "Cheese",
+            "description": "",
+            "list_id": 1
+        }
+    }
+]
